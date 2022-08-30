@@ -1,0 +1,7 @@
+stages:
+  stage1:
+    cmd: python stage1.py ${dict}
+    deps:
+      - stage1.py
+    outs:
+      - out.txt

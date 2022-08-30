@@ -1,0 +1,7 @@
+dict:
+  a_str: hello
+  a_bool: True
+  a_list: 
+    - a
+    - b
+    - c

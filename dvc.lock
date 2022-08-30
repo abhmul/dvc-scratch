@@ -1,0 +1,12 @@
+schema: '2.0'
+stages:
+  stage1:
+    cmd: python stage1.py --a_str 'hello' --a_bool --a_list 'a' 'b' 'c'
+    deps:
+    - path: stage1.py
+      md5: 4a3a7716b9d66fd3d092a8ec8cf3f753
+      size: 328
+    outs:
+    - path: out.txt
+      md5: c04e918e153a7cb064b9ff48d875a955
+      size: 71
